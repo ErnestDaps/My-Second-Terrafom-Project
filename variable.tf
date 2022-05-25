@@ -39,19 +39,19 @@ variable "private-sub2-cidr" {
 variable "AZ1" {
   type        = string
   description = "name of availability zone 1"
-  default     = "eu-west-2a"
+  default     = "eu-west-1a"
 }
 
 variable "AZ2" {
   type        = string
   description = "name of availability zone 2"
-  default     = "eu-west-2b"
+  default     = "eu-west-1b"
 }
 
 variable "Region-name" {
   type        = string
   description = "name of region"
-  default     = "eu-west-2"
+  default     = "eu-west-1"
 
 }
 
