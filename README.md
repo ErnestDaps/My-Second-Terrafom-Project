@@ -1,10 +1,12 @@
 # My-Second-Terrafom-Project
+# Project Description
 In this project, I've created a secure networking for an ongoing project using the AWS platform.
 It consist of 5 subnets spanning across two AZs.
 Two route tables have been created and associated with the public and private subnets.
 An internet gateway has been created and associated with the public route table.
 A Nat gateway has been placed in one of the public subnets and has been associated with the private route table to ensuse updating, patching, etc of the contents in the private subnets.
 
+# Project Execution
 The project was executed using terraform.
 The structure consists of a folder (My-Second-Terraform-Project), within which are three files namely; provider.tf, main.tf, and variable.tf.
 the provider.tf defines the cloud provider which is AWS.
