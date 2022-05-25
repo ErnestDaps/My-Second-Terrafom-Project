@@ -1,0 +1,18 @@
+
+# local terraform directories
+**/.terraform/*
+
+# State files
+*.tfstate
+*.tfstate.*
+
+# log files
+*.log
+
+# Other files
+SG.tf
+
+.terraform.loc.hcl
+
+
+
